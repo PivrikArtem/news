@@ -1,0 +1,28 @@
+.source_item {
+    background: 0 0;
+    border: 2px solid #1fb6f1;
+    font: inherit;
+    line-height: 1;
+    margin: .5em;
+    padding: 1em 2em;
+    color: #70d6ff;
+    transition: .25s;
+    cursor: pointer;
+    white-space: nowrap;
+    text-decoration: none;
+}
+.source_item:hover {
+    border-color:#3fcc59;
+    color:#69db7e;
+    box-shadow:0 .5em .5em -.4em #3fcc59;
+    -webkit-transform:translateY(-.25em);
+    transform:translateY(-.25em);
+}
+.source_item:focus {
+    border-color:#3fcc59;
+    color:#69db7e;
+}
+.source_item .source-name {
+    font-weight:400;
+    white-space:nowrap;
+}

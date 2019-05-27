@@ -1,0 +1,15 @@
+.footer {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 auto;
+}
+.footer .copyright {
+    font-size: 14px;
+    color: black;
+    text-align: center;
+}
+.footer .copyright a {
+    color: rgb(27, 209, 255);
+}
